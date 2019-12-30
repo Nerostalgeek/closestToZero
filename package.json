@@ -4,7 +4,7 @@
   "description": "Pre technical test for Gojob",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "author": "Nicolas Estezet",
   "license": "ISC",
@@ -13,5 +13,8 @@
     "jest": "^24.9.0",
     "ts-jest": "^24.2.0",
     "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "@types/node": "^13.1.1"
   }
 }
